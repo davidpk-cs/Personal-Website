@@ -1,0 +1,189 @@
+#homepagetitlebox{
+    
+    position: absolute;
+    
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    
+
+}
+
+.sidebyside{
+    display: flex;
+    justify-content: center;
+}
+
+.pageTitleContents{
+    text-align: center;
+    color: rgba(255, 239, 239, 0.767);
+    filter: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.pageTitle{
+    text-align: center;
+    
+    filter: none;
+
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+
+    margin-bottom: 45px;
+    margin-top: 20px;
+
+}
+
+#explorebutton{
+    font-size: 2.6em;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    filter: none;
+    border: 2px solid rgba(255, 217, 0, 0.925);
+    background-color: rgba(207, 179, 18, 0.925);
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    color: white;
+    margin-top: 10px;
+    transition: font-size 0.3s;
+}
+#explorebutton:hover{
+    font-size: 3.2em;
+}
+
+.anchorH2{
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: darkblue;
+}
+
+/*top menu bar */
+body{
+    
+}
+
+.topBarContainer{
+    
+}
+.topBar{
+    
+    position: relative;
+    background-image: url("vbs 2023.jpg");
+    padding-bottom: 56.25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(1, 1, 58);
+    filter: blur(2px);
+    
+}
+.whitesheet{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.768), darkcyan);
+    opacity: 0.7;
+}
+
+.menusheet{
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    background-color: honeydew;
+    opacity: 0.9;
+}
+
+
+
+.topBar h1{
+
+}
+
+.topBar h2{
+
+}
+
+@media screen and (max-width: 800px) {
+    .zigZagPanel{
+        transition: max-width none;
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+
+    .zigZagPanelLeftImage .zigZagPanelRightImage{
+        width: 100px !important;
+    }
+    .zigZagPanelTitle{
+        font-size: 2em !important;
+    }
+    
+    .zigZagPanelBody{
+        font-size: 2em !important;
+    }
+}
+
+
+.zigZagPage{
+    border-top: 3px solid darkcyan;
+    margin-top: none;
+    padding-top: none;
+
+    box-shadow: 0px -3px 1px darkcyan;
+}
+
+.zigZagPanel{
+    color: white;
+    font-size: 3em;
+    border: 2px groove darkblue;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: fit-content;
+    max-width: 50%; 
+    width: fit-content; 
+    padding: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
+    transition: max-width 0.7s, padding 0.7s, font-size 0.7s, margin-left 0.7s, margin-right 0.7s,
+    padding-top 0.7s, padding-bottom 0.7s;
+}
+
+.zigZagPanel:hover{
+    border-color: lightblue;
+    font-size: 4.5em;
+    padding-top: 6.5%;
+    padding-bottom: 6.5%;
+
+}
+
+
+
+.zigZagPanelLeft{
+    transition: margin-left 0.7s;
+}
+
+.zigZagPanelRight{
+    transition: margin-right 0.7s;
+}
+
+
+
+.centeredText{
+    text-align: center;
+}
